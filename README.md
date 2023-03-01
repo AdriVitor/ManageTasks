@@ -1,4 +1,4 @@
-# Manage Tasks
+# Manage Tasks - API
 
 ## Objetivo
 <p>Organizar as tarefas do dia a dia</p>
@@ -17,7 +17,7 @@
 
 # Backend
 
-## Tecnologias utilizadas
+## Linguagens/Tecnologias/Paradigmas utilizados
 
 <ul>
     <li>C#</li>
@@ -26,8 +26,6 @@
     <li>Entity Framework</li>
     <li>SQL Server</li>
     <li>Swagger</li>
+    <li>TDD</li>
 </ul>
 
-# Frontend
-
-<p><b>Status: Em andamento</b></p>
