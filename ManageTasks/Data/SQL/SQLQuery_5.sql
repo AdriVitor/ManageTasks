@@ -1,0 +1,22 @@
+CREATE DATABASE MANAGETASKS;
+
+CREATE TABLE [User](
+    [Id] INT NOT NULL IDENTITY(1,1),
+    [Name] NVARCHAR(40) NOT NULL,
+    [Password] NVARCHAR(20) NOT NULL,
+    [Email] NVARCHAR(100) NOT NULL,
+
+    PRIMARY KEY([Id])
+);
+
+CREATE TABLE [Tasks](
+    [Id] INT NOT NULL IDENTITY(1,1),
+    [Title] NVARCHAR(50) NOT NULL,
+    [Date] DATE NOT NULL,
+    [Description] TEXT,
+    [Status] TINYINT NOT NULL,
+    [UserId] INT NOT NULL,
+
+    PRIMARY KEY([Id]),
+    FOREIGN KEY (UserId) REFERENCES [User](Id)
+);
