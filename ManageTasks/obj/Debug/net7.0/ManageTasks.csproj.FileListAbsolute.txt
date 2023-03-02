@@ -76,3 +76,4 @@ E:\ManageTasksProject\ManageTasks\obj\Debug\net7.0\ManageTasks.pdb
 E:\ManageTasksProject\ManageTasks\obj\Debug\net7.0\ManageTasks.genruntimeconfig.cache
 E:\ManageTasksProject\ManageTasks\obj\Debug\net7.0\ref\ManageTasks.dll
 E:\ManageTasksProject\ManageTasks\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+E:\ManageTasksProject\ManageTasks\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

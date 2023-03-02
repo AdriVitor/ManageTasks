@@ -54,4 +54,15 @@ public class UserController : ControllerBase{
             return NotFound(ex.Message);
         }
     }
+
+    [HttpPost("authenticate")]
+    public async Task<ActionResult<dynamic>> Authenticate([FromBody] User user){
+        try{
+            var authentication = _userService.AuthenticateUser(user);
+            return Ok(authentication);
+        }
+        catch{
+            return NotFound();
+        }
+    }
 } 
