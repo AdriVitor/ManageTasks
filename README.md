@@ -21,8 +21,8 @@
 
 <ul>
     <li>C#</li>
-    <li>.NET</li>
-    <li>ASP.NET</li>
+    <li>.NET Core</li>
+    <li>ASP.NET Core</li>
     <li>Entity Framework</li>
     <li>SQL Server</li>
     <li>Swagger</li>
